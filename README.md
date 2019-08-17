@@ -32,8 +32,9 @@
 				you write a javascript coding.
 		                      </script>
 		                 </head>
-	2) External: you create a (.js) external file and you link this html page. you link external file by script tag.
-			Always write body end section but its head body two section working.
+	2) External: you create a (.js) external file and you link this html page. 
+		     you link external file by script tag.
+		     Always write body end section but its head body two section working.
 		   Example: <script src="main.js" type="text/javascript"></script> 
 
 ### javascript comments:
