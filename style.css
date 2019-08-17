@@ -1,0 +1,62 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: arial;
+	color: #000;
+}
+.container{
+	width: 1170px;
+	margin: 0 auto;
+}
+.clear{
+	overflow:hidden;
+}
+/*Header Section start*/
+.heads{
+		background: lightgrey;
+}
+.titles {
+	text-align: center;
+	padding-top: 10px;
+}
+.titles h1 {
+	color: teal;
+	font-size: 25px;
+}
+.titles p {
+	color: tomato;
+	font-size: 15px;
+}
+.menus {
+	text-align: center;
+}
+.menus ul {
+	list-style: none;
+}
+.menus ul li {
+	display: inline-block;
+	background: thistle;
+	padding: 5px 5px;
+	margin: 20px 0;
+	border: burlywood solid 1px;
+}
+.menus ul li a {
+	text-decoration: navajowhite;
+	color: #000;
+}
+.menus ul li a:hover{
+	background: teal;
+	padding: 5px 10px;	
+	transition: .8s;
+	color: white;
+}
+/*Header Section stop*/
+/*JS section Start*/
+.js{}
+.datatype{}
+.anytype{
+	
+}
+/*JS section Stop*/

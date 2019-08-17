@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>JAVAscript</title>
+	<link rel="icon" href="index.ico" type="image/x-icon" />
+	<link rel="stylesheet" type="text/css" href="style.css" media="all" />
+	<!--Internal JS-->
+	<script type="text/javascript"> 
+		
+	</script>
+</head>
+<body>
+  <div class="container">
+	<!--Header Section Start-->
+	<header class="heads">
+		<div class="titles"> 
+			<h1>SRK WORLD!</h1>
+			<p>This is my website</p>
+		</div>
+		<div class="menus">
+			<ul>
+				<li><a href="">Home</a></li>
+				<li><a href="">Profile</a></li>
+				<li><a href="">Service</a></li>
+				<li><a href="">About</a></li>
+				<li><a href="">Contact</a></li>
+			</ul>
+		</div>
+	</header>
+	<!--Header Section Stop-->
+	<!--Data type section Start-->
+<section class="datatype"> 
+	<h1 style="text-align: center; margin:10px 0;">1. Data Type JS</h1>
+	<script type="text/javascript"> 
+		var multi;
+		document.write(typeof multi + '<br />');
+		var multi= 'Hello world';
+		document.write(typeof multi + '<br />');
+		var multi = 25;
+		document.write(typeof multi + '<br />');
+		var multi = 20.154;
+		document.write(typeof multi + '<br/>');
+		var multi = false;
+		document.write(typeof multi+ '<br />');
+		var multi = null;
+		document.write(typeof multi+ '<br />');
+	</script>
+</section>
+	<!--Data type section Stop-->
+	<!--Composite type section Start-->
+<section class="composite"> 
+	<h1 style="text-align: center; margin:10px 0;">Composite Type JS</h1>
+	<script type="text/javascript"> 
+		//Array
+		var fruits= ['apple','banana','orange','malta'];
+		document.write(fruits[2] +',');
+		document.write(fruits[3] + '<br />');
+		//Object
+		var color= {
+			"0": 'teal',
+			"1": 'red',
+			"2": 'grey',
+			"3": 'yellow',
+			"4": 'orange',
+				}
+		document.write(color[1] + '<br />');
+	</script>
+</section>
+	<!--Composite type section Stop-->
+	<!--COntrol FLow section Start-->
+<section class="contflow"> 
+		<h1 style="text-align: center; margin:10px 0;">2. Control Flow JS</h1>
+	<script type="text/javascript"> 
+		//Iterative loop
+		//For
+		var s;
+		for( s=10; s>0; s--){
+			document.write(s + '<br />');
+		}
+		//while
+		var i = 0;
+		while( i < 50){
+		  if(i % 2 != 0){
+			document.write(i + '<br/>');
+		       }
+		    i++;
+	     }
+		 
+		//Conditional
+		//If
+		var color = 'blue';
+		if(color == 'blue'){
+			document.write('just like the sky !' + '<br />');
+			}
+		//If_else
+		var color = 'blue';
+		if(color=='red'){
+			document.write('This is my fantasy WORLD!'+ '<br />');
+		}
+		else{
+			document.write('This is not my Fantasy WORLD!' + '<br />');
+		}
+		//if_else if_else
+		var color="blue";
+		if (color=="red"){ 
+			document.write('HELLO WORLD');
+		}
+		else if (color=="green"){
+			document.write("Fantasy WORLD!");
+		}
+		else if ( color=="blue"){
+			document.write('SRK WORLD!');
+		}
+		else{
+			document.write("my world!");
+		}
+	</script>
+</section>
+	<!--COntrol FLow section Stop-->
+	<!--Variable section Start-->
+<section class="variables"> 
+	<h1 style="text-align: center; margin:10px 0;">3. Variable JS</h1>
+	<script type="text/javascript"> 
+		//Variable....
+		var my_var = 'This is my amazing world';
+		document.write(my_var);
+		document.write('<br />');
+		var read = 'This is my first paragraph';
+		document.write(read + '<br />');
+		var color = 'This is my favourite color';
+		document.write(color + '<br />');
+		var number1 = 222;
+		var number2 = 222;
+		document.write(number1+number2);
+	</script>
+</section>
+	<!--Variable section Stop-->
+	<!--Function section Start-->
+<section class="function"> 
+	<h1 style="text-align: center; margin:10px 0;">4. Function JS</h1>
+	<script type="text/javascript"> 
+		///Function...
+		//Build In Function
+			//Number,Boolen, String,date.....
+		//User Define Function...
+		function multi(a,b){
+			return a*b;
+		}
+		document.write(multi(4,3),'<br />');
+		function color(x,y){ 
+			return x*y;
+		}
+		document.write(color(5,10));
+	</script>
+</section>
+	<!--Function section Stop-->
+	
+	
+  </div>
+</body>
+</html>
