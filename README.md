@@ -48,8 +48,8 @@
 	            Scaler type: 5 parts of  Scaler type
 	     =========================
 		i) Number : 2 parts
-		      1) Integer: Its a Integer value.... 1,2,3,4,55,111,-22,-258,-500 (nrgative & positive integer value)
-		      2) Floating: Its a decimal value..... 2.2, 5.22, 6.365, 5.21587
+		      1) Integer: Its a Integer value.. 1,2,3,4,55,111,-22,-258,-500 (nrgative & positive integer value)
+		      2) Floating: Its a decimal value... 2.2, 5.22, 6.365, 5.21587
 		-------------------------------------------------------------------------------
 		ii) Boolean : Its a two value.
 		      1) True ( true equal 1 )
@@ -58,37 +58,38 @@
 		iii) String : Any text/content js call to string. 
 			string always stay single ('content') or double quatation ("content")
 		-----------------------------------------------------
-		iv) Undefined : you declare variable but dont assign Data type value , its data type declare undefined.
+		iv) Undefined : you declare variable but dont assign Data type value , 
+				its data type declare undefined.
 		--------------------------------------------------------------------
 		v) Null : Undefinded & null almost same. one diiferent of undefined. 
-			null always assign null but undefiend dont assign undefined.
-		      null is a blank object. 
+			  null always assign null but undefiend dont assign undefined.
+		          null is a blank object. 
 
-	                   (EX):
-		  <script>
-		           var multi;              (Undefiend)
-		           document.write (typeof multi+ '<br/>') ;
+	              (EX):
+			  <script>
+				   var multi;              (Undefiend)
+				   document.write (typeof multi+ '<br/>') ;
 
-		           var multi = 'Hi multi';    ( string)
-		           document.write (typeof multi  + '<br/>');
+				   var multi = 'Hi multi';    ( string)
+				   document.write (typeof multi  + '<br/>');
 
-		           var multi = 15;      (Number)
-		           document.write (typeof multi + '<br/>');
+				   var multi = 15;      (Number)
+				   document.write (typeof multi + '<br/>');
 
-		           var multi = 20.325; (number)
-		           document.write (typeof multi + '<br/>');
+				   var multi = 20.325; (number)
+				   document.write (typeof multi + '<br/>');
 
-		          var multi = false;    ( boolean)
-		          document.write (typeof multi + '<br/>');
+				  var multi = false;    ( boolean)
+				  document.write (typeof multi + '<br/>');
 
-		         var multi = null;      (object)
-		         document.write (typeof multi + '<br/>');
-		</script>
+				 var multi = null;      (object)
+				 document.write (typeof multi + '<br/>');
+			</script>
 
 
 	        Composite Type: 2 parts of Composite Type.
 	   ================================
-		i) Array: 	Its start Third Brackets --  [ ]
+		i) Array: Its start Third Brackets --  [ ]
 			Define: (var var_name= elements)
 			EX: var fruits= ['apple','banana','orange','malta'];
 			        document.write(fruits[2] + '<br />');
@@ -206,6 +207,5 @@
 ### You Close every statement this ( ; ) symbol
 
 ***
-
-### G SARWAR
-* Web Instructor
+## G SARWAR
+#### Web Instructor
